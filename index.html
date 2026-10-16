@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/og.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#030a14" />
+    <meta name="description" content="Render72 — A curated campus events platform. Discover workshops, festivals, competitions, and talks. Real events, one clear place." />
+    <meta name="keywords" content="campus events, student events, workshops, hackathons, festivals, competitions, college events" />
+    <meta name="author" content="Kuldeep Devarasetty" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://render72.pages.dev/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://render72.pages.dev/" />
+    <meta property="og:title" content="Render72 — Curated Campus Events" />
+    <meta property="og:description" content="Discover workshops, festivals, competitions, and talks. Real events, one clear place." />
+    <meta property="og:image" content="https://render72.pages.dev/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Render72 — Curated Campus Events" />
+    <meta name="twitter:description" content="Discover workshops, festivals, competitions, and talks. Real events, one clear place." />
+    <meta name="twitter:image" content="https://render72.pages.dev/og.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" media="print" onload="this.media='all'" />
+    <title>Render72 — Curated Campus Events</title>
+    <meta name="description" content="Discover workshops, festivals, competitions, and talks at Render72 — a curated campus events platform powered by real-time event data." />
+    <meta name="keywords" content="campus events, student events, workshops, hackathons, festivals, competitions, college events, render72" />
+    <link rel="canonical" href="https://render72.pages.dev/" />
+    <link rel="preload" href="/src/main.tsx" as="script" />
+    <link rel="preload" href="/src/App.css" as="style" />
+  </head>
+  <body>
+    <a href="#discover" class="skip-link">Skip to events</a>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').catch(function() {});
+      }
+    </script>
+  </body>
+</html>
